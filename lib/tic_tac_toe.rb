@@ -118,8 +118,7 @@ def play(board)
   until over?(board)
   turn(board)
   if winner(board) === "X"
-    value = winner(board)
-    congratulations(value)
+    puts "Congratulations X!"
   elsif winner(board) === "O"
     puts "Congratulations O!"
   elsif draw?(board)
@@ -128,6 +127,4 @@ def play(board)
   end
 end
 
-def congratulations(value)
-  puts "Congratulations #{value}!"
-end
+
