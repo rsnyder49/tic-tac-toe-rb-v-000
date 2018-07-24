@@ -124,7 +124,6 @@ end
     puts "Congratulations O!"
   elsif draw?(board)
     puts "Cat's Game!"
-  
   end
 end
 
